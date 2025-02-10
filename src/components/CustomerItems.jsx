@@ -1,6 +1,9 @@
+import CustomerSidbar from "./CustomerSidebar";
+
 function CustomerItems () {
     return (
         <>
+            <CustomerSidbar />
             {/* Overlay effect when opening sidebar on small screens */}
             <div
                 className="w3-overlay w3-hide-large w3-animate-opacity"
@@ -54,13 +57,13 @@ function CustomerItems () {
                     <img
                     src="/src/assets/pizza 1.jpg"
                     alt="Pizza 1"
-                    style={{ width: "500px", height: "300px" }}
+                    style={{ width: "520px", height: "300px" }}
                     className="w3-hover-opacity"
                     />
                     <div className="w3-container w3-white">
                     <p>
                         <b style={{ marginRight: "340px"}}>Lorem Ipsum</b>
-                        <img src="/src/assets/cart-shopping-solid.svg" alt="cart shopping" style={{width: "30px"}} />
+                        <img src="/src/assets/cart-shopping-solid.svg" alt="cart shopping" style={{width: "25px", marginTop: "5px", marginLeft: "35px"}} />
                     </p>
                     <p>
                         Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
@@ -73,13 +76,13 @@ function CustomerItems () {
                     <img
                     src="/src/assets/pizza 2.jpg"
                     alt="Pizza 2"
-                    style={{ width: "500px", height: "300px" }}
+                    style={{ width: "520px", height: "300px" }}
                     className="w3-hover-opacity"
                     />
                     <div className="w3-container w3-white">
                     <p>
                         <b style={{ marginRight: "340px"}}>Lorem Ipsum</b>
-                        <img src="/src/assets/cart-shopping-solid.svg" alt="cart shopping" style={{width: "30px"}} />
+                        <img src="/src/assets/cart-shopping-solid.svg" alt="cart shopping" style={{width: "25px", marginTop: "5px", marginLeft: "35px"}} />
                     </p>
                     <p>
                         Praesent tincidunt sed tellus ut rutrum. Sed vitae justo

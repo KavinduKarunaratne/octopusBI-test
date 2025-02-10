@@ -6,7 +6,9 @@ import './App.css'
 
 import LoginPage from './components/LoginPage'
 import OwnerDashboard from './components/OwnerDashboard'
-import CustomerLandingPage from './components/CustomerLandingPage'
+import CustomerItems from './components/CustomerItems'
+import CustomerCart from './components/CustomerCart'
+import CustomerTrack from './components/CustomerTrack'
 
 
 function App() {
@@ -17,7 +19,9 @@ function App() {
       <Routes>
         <Route path='/' element={<LoginPage />} />
         <Route path='/owner' element={<OwnerDashboard />} />
-        <Route path='/customer' element={<CustomerLandingPage />} />
+        <Route path='/customer' element={<CustomerItems />} />
+        <Route path='/cart' element={<CustomerCart />} />
+        <Route path='/track' element={<CustomerTrack />} />
       </Routes>
     </>
   )

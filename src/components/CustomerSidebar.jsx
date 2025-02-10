@@ -1,4 +1,22 @@
+import { useNavigate } from "react-router-dom";
+import CustomerCart from "./CustomerCart";
+
 function CustomerSidbar () {
+
+    const navigate = useNavigate()
+
+    const navCustomer = () => {
+        navigate('/customer')
+    }
+
+    const navCart = () => {
+        navigate('/cart')
+    }
+
+    const navTrack = () => {
+        navigate('/track')
+    }
+
     return(
         <>
             {/* Sidebar/menu */}
@@ -30,15 +48,17 @@ function CustomerSidbar () {
                 </div>
                 <div className="w3-bar-block">
                 <a
-                    href="#portfolio"
+                    href="#"
+                    onClick={navCustomer}
                     onclick="w3_close()"
-                    className="w3-bar-item w3-button w3-padding w3-text-teal"
+                    className="w3-bar-item w3-button w3-padding w3-text-red"
                 >
                     <i className="fa fa-th-large fa-fw w3-margin-right" />
                     ITEMS
                 </a>
                 <a
-                    href="#about"
+                    href="#"
+                    onClick={navCart}
                     onclick="w3_close()"
                     className="w3-bar-item w3-button w3-padding"
                 >
@@ -46,7 +66,8 @@ function CustomerSidbar () {
                     CART
                 </a>
                 <a
-                    href="#contact"
+                    href="#"
+                    onClick={navTrack}
                     onclick="w3_close()"
                     className="w3-bar-item w3-button w3-padding"
                 >
