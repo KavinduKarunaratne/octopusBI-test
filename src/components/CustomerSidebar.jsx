@@ -18,16 +18,15 @@ function CustomerSidbar () {
                     <i className="fa fa-remove" />
                 </a>
                 <img
-                    src="/w3images/avatar_g2.jpg"
-                    style={{ width: "45%" }}
+                    src="/src/assets/pizza.png"
+                    style={{ width: "45%", borderRadius: "100px"}}
                     className="w3-round"
                 />
                 <br />
                 <br />
                 <h4>
-                    <b>PORTFOLIO</b>
+                    <b>PIZZA SHOP</b>
                 </h4>
-                <p className="w3-text-grey">Template by W3.CSS</p>
                 </div>
                 <div className="w3-bar-block">
                 <a
@@ -36,7 +35,7 @@ function CustomerSidbar () {
                     className="w3-bar-item w3-button w3-padding w3-text-teal"
                 >
                     <i className="fa fa-th-large fa-fw w3-margin-right" />
-                    PORTFOLIO
+                    ITEMS
                 </a>
                 <a
                     href="#about"
@@ -44,7 +43,7 @@ function CustomerSidbar () {
                     className="w3-bar-item w3-button w3-padding"
                 >
                     <i className="fa fa-user fa-fw w3-margin-right" />
-                    ABOUT
+                    CART
                 </a>
                 <a
                     href="#contact"
@@ -52,16 +51,8 @@ function CustomerSidbar () {
                     className="w3-bar-item w3-button w3-padding"
                 >
                     <i className="fa fa-envelope fa-fw w3-margin-right" />
-                    CONTACT
+                    TRACK
                 </a>
-                </div>
-                <div className="w3-panel w3-large">
-                <i className="fa fa-facebook-official w3-hover-opacity" />
-                <i className="fa fa-instagram w3-hover-opacity" />
-                <i className="fa fa-snapchat w3-hover-opacity" />
-                <i className="fa fa-pinterest-p w3-hover-opacity" />
-                <i className="fa fa-twitter w3-hover-opacity" />
-                <i className="fa fa-linkedin w3-hover-opacity" />
                 </div>
             </nav>
         </>
